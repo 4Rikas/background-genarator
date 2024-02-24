@@ -1,3 +1,11 @@
+var _ = require('lodash');
+
+console.log(_);
+
+let arr = [1,2,3,4,5,6]
+
+console.log("answer", _.without(arr, 3));
+
 var css = document.getElementsByTagName("h3")[0];
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");

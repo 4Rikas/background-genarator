@@ -1,0 +1,15 @@
+{
+  "name": "background-genarator",
+  "version": "1.0.0",
+  "description": "this is my background genarator",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
